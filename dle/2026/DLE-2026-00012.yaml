@@ -19,10 +19,7 @@ assumption_violated: >
   The detection assumes the process image name is a stable and trustworthy
   identifier for wget execution and that attackers cannot clone or rename the
   binary prior to performing the in-scope download activity.
-mappings:
-  ade:
-    - ADE3-01
-  mitre_attack:
+mitre_attack:
     - T1105
 logsource:
   product: linux

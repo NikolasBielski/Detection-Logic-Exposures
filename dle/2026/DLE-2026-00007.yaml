@@ -20,11 +20,8 @@ assumption_violated: >
   The detection assumes host-level aggregation is sufficiently granular to model
   unique first-time behavior and that attackers cannot observe, infer, or influence
   historical aggregated activity within the new terms window.
-mappings:
-  ade:
-    - ADE3-02
-  mitre_attack:
-    - T1105
+mitre_attack:
+  - T1105
 logsource:
   product: linux
   category: process

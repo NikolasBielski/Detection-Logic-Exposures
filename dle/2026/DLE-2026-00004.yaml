@@ -25,7 +25,7 @@ assumption_violated: >
 logsource:
   product: aws
   service: cloudtrail
-attack:
+mitre_attack:
   - T1562
   - T1046
 complexity: Medium

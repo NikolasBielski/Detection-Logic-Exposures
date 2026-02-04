@@ -22,12 +22,8 @@ assumption_violated: >
   first-time malicious RAT execution and that attackers cannot observe or influence
   prior RAT activity within the New Terms history window. It further assumes process
   name matching is a reliable identifier for RAT execution.
-mappings:
-  ade:
-    - ADE3-02
-    - ADE3-01
-  mitre_attack:
-    - T1219
+mitre_attack:
+  - T1219
 logsource:
   product: windows
   category: process

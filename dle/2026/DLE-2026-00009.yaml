@@ -23,13 +23,8 @@ assumption_violated: >
   OUTLOOK.EXE process within a short, fixed time window, originate from a
   hardcoded set of parent process names or recently created binaries, and that
   COM interactions always result in observable process creation events.
-mappings:
-  ade:
-    - ADE3-01
-    - ADE3-02
-    - ADE3-03
-  mitre_attack:
-    - T1114
+mitre_attack:
+  - T1114
 logsource:
   product: windows
   category: process

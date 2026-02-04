@@ -24,7 +24,7 @@ assumption_violated: >
 logsource:
   product: linux
   category: process
-attack:
+mitre_attack:
   - T1105
 complexity: Medium
 notes: >

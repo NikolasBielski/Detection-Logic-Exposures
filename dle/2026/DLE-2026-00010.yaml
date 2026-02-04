@@ -18,11 +18,8 @@ assumption_violated: >
   The detection assumes that process.name is a stable and trustworthy identifier
   for the executed binary and that attackers cannot manipulate it by cloning or
   renaming executables.
-mappings:
-  ade:
-    - ADE3-01
-  mitre_attack:
-    - T1105
+mitre_attack:
+  - T1105
 logsource:
   product: linux
   category: process

@@ -20,11 +20,8 @@ assumption_violated: >
   a single command line. It further assumes that requiring the simultaneous
   presence of curl and wget will still capture common post-compromise download
   behavior.
-mappings:
-  ade:
-    - ADE4-03
-  mitre_attack:
-    - T1105
+mitre_attack:
+  - T1105
 logsource:
   product: linux
   category: process

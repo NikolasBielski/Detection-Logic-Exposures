@@ -22,7 +22,7 @@ assumption_violated: >
 logsource:
     product: windows
     category: ps_module
-attack:
+mitre_attack:
   - T1049
 complexity: Low
 

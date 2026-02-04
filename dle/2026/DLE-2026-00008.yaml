@@ -20,12 +20,8 @@ assumption_violated: >
   The detection assumes malicious BITS transfers will use short filenames and that
   long filenames are a reliable proxy for benign third-party software behavior.
   It further assumes attackers cannot intentionally align with this baseline.
-mappings:
-  ade:
-    - ADE3-02
-    - ADE4-01
-  mitre_attack:
-    - T1105
+mitre_attack:
+  - T1105
 logsource:
   product: windows
   category: file

@@ -23,12 +23,7 @@ assumption_violated: >
   logical ANDs will each act as separate noise suppressors. It further assumes
   attackers cannot intentionally manipulate a single mutable field to invert the
   Boolean outcome of the entire exclusion chain.
-mappings:
-  ade:
-    - ADE4-01
-    - ADE3-02
-    - ADE2-04
-  mitre_attack:
+mitre_attack:
     - T1105
 logsource:
   product: windows

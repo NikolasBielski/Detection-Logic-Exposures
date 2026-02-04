@@ -21,11 +21,8 @@ assumption_violated: >
   immutable or trustworthy noise that attackers cannot manipulate. It further
   assumes that attackers cannot intentionally inject all negated terms to flip
   the rule outcome.
-mappings:
-  ade:
-    - ADE4-01
-  mitre_attack:
-    - T1059.001
+mitre_attack:
+  - T1059.001
 logsource:
   product: windows
   category: process

@@ -22,7 +22,7 @@ assumption_violated: >
 logsource:
   product: linux
   category: file_event
-attack:
+mitre_attack:
   - T1053.003
 complexity: Low
 notes: >

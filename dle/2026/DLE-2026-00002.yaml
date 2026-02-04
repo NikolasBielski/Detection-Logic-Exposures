@@ -25,7 +25,7 @@ assumption_violated: >
 logsource:
   product: windows
   category: ps_script
-attack:
+mitre_attack:
   - T1105
 complexity: Low
 notes: >
